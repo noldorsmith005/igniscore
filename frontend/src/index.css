@@ -1,0 +1,144 @@
+:root {
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+h1 {
+  font-family: 'Times New Roman', Times, serif;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  color: white;
+  padding: 50px;
+  text-align: left;
+}
+
+.highlight {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  color: lightblue;
+  padding: 10px;
+  text-align: center;
+}
+
+.head_container {
+  z-index: 0;
+  position: absolute;
+  top: 0%;
+  width: 100%;
+  height: 50%;
+  background-image: url("/cover.png");
+  background-size: cover;
+}
+
+.title {
+  position: absolute;
+  top: 5%;
+  left: 33%;
+  font-family: cursive;
+  font-size: 130px;
+}
+
+.logo {
+  position: absolute;
+  top: 0%;
+  right: 0%;
+}
+
+.menubtn {
+  z-index: 2;
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  scale: 25%;
+}
+.menubtn:hover {
+  cursor: pointer;
+  scale: 30%;
+}
+
+.textbtn {
+  border: none;
+  background-color: inherit;
+  color: white;
+  padding: 30px 50px;
+  font-size: 30px;
+  cursor: pointer;
+  display: inline-block;
+}
+.textbtn:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.menu {
+  z-index: 1;
+  display: flex;
+  align-items: flex-end;
+  position: absolute;
+  top: 0%;
+  width: 25%;
+  height: 100%;
+  background-color: grey;
+  opacity: 75%;
+}
+
+.mainpage {
+  z-index: 0;
+  position: absolute;
+  bottom: 0%;
+  width: 100%;
+  height: 50%;
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+
+.row {
+  position: relative;
+  background-color: grey;
+  border: 3px solid white;
+  width: 85%;
+  height: 400px;
+  left: 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  justify-self: center;
+  overflow-x: scroll;
+  overflow-y: hidden;
+}
+
+.rowitem {
+  position: relative;
+  width: 300px;
+  height: 400px;
+  padding: 100px;
+}
+
+.rowimg {
+  scale: 50%;
+}
+
+
+
+
+
